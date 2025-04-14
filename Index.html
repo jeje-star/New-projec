@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dashboard Sederhana</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <h2>PERANTAU</h2>
+      <nav>
+        <ul>
+          <li><a href="#" onclick="loadPage('home')">Beranda</a></li>
+          <li><a href="#" onclick="loadPage('profile')">Profil</a></li>
+          <li><a href="#" onclick="loadPage('settings')">Pengaturan</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <main class="content">
+      <h1 id="page-title">Beranda</h1>
+      <div id="page-content">
+        <p>Selamat datang di dashboard!</p>
+      </div>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
